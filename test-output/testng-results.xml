@@ -1,52 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
-    <line>
-      <![CDATA[hello python]]>
-    </line>
-    <line>
-      <![CDATA[hello selenium]]>
-    </line>
-    <line>
-      <![CDATA[hello api]]>
-    </line>
     <line>
       <![CDATA[hello java]]>
     </line>
   </reporter-output>
-  <suite started-at="2022-12-28T12:15:21 IST" name="Suite" finished-at="2022-12-28T12:15:21 IST" duration-ms="187">
+  <suite started-at="2023-01-05T11:50:27 IST" name="Default suite" finished-at="2023-01-05T11:50:28 IST" duration-ms="198">
     <groups>
     </groups>
-    <test started-at="2022-12-28T12:15:21 IST" name="Test" finished-at="2022-12-28T12:15:21 IST" duration-ms="187">
-      <class name="scripts.Testcase4">
-        <test-method signature="demo()[pri:0, instance:scripts.Testcase4@6a84a97d]" started-at="2022-12-28T12:15:21 IST" name="demo" finished-at="2022-12-28T12:15:21 IST" duration-ms="13" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[hello api]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- demo -->
-      </class> <!-- scripts.Testcase4 -->
-      <class name="scripts.Testcase3">
-        <test-method signature="demo()[pri:0, instance:scripts.Testcase3@a3d8174]" started-at="2022-12-28T12:15:21 IST" name="demo" finished-at="2022-12-28T12:15:21 IST" duration-ms="26" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[hello python]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- demo -->
-      </class> <!-- scripts.Testcase3 -->
-      <class name="scripts.Testcase2">
-        <test-method signature="demo()[pri:0, instance:scripts.Testcase2@48974e45]" started-at="2022-12-28T12:15:21 IST" name="demo" finished-at="2022-12-28T12:15:21 IST" duration-ms="4" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[hello selenium]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- demo -->
-      </class> <!-- scripts.Testcase2 -->
+    <test started-at="2023-01-05T11:50:27 IST" name="Default test" finished-at="2023-01-05T11:50:28 IST" duration-ms="198">
       <class name="scripts.Testcase1">
-        <test-method signature="demo()[pri:0, instance:scripts.Testcase1@6c130c45]" started-at="2022-12-28T12:15:21 IST" name="demo" finished-at="2022-12-28T12:15:21 IST" duration-ms="4" status="PASS">
+        <test-method signature="demo()[pri:0, instance:scripts.Testcase1@7ce3cb8e]" started-at="2023-01-05T11:50:28 IST" name="demo" finished-at="2023-01-05T11:50:28 IST" duration-ms="32" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[hello java]]>
@@ -54,6 +18,6 @@
           </reporter-output>
         </test-method> <!-- demo -->
       </class> <!-- scripts.Testcase1 -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
